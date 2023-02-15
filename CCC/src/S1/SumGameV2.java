@@ -1,8 +1,9 @@
+package S1;
 
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Main {
+public class SumGameV2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int in = sc.nextInt();

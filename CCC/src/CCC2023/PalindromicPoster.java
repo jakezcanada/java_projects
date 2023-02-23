@@ -26,7 +26,7 @@ public class PalindromicPoster {
 			}
 			for(int i = 0; i < r; i++) {
 				for(int j = 0; j < c; j++) {
-					if(j != c-1) System.out.print(arr[i][j]+" ");
+					if(j != c-1) System.out.print(arr[i][j]);
 					else System.out.print(arr[i][j]);
 				}
 				if(i != r-1) System.out.println();

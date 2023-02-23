@@ -1,7 +1,8 @@
+package CCC2023;
 
 import java.util.Scanner;
 
-public class Main {
+public class Trianglane {
 	public static boolean[][] v;
 	public static int calc(int r, int c, int[][] arr) {
 		if(v[r][c]) return 0;

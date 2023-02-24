@@ -8,8 +8,8 @@ public class PalindromicPoster {
 		Scanner sc = new Scanner(System.in);
 		int r = sc.nextInt();
 		int c = sc.nextInt();
-		int pr = sc.nextInt();
-		int pc = sc.nextInt();
+		int pr = sc.nextInt(); // palindromes in rows
+		int pc = sc.nextInt(); // palindromes in columns
 		if(pr == 1 && pc == 1) {
 			char a = 97;
 			char[][] arr = new char[r][c];
